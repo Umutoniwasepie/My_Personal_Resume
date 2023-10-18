@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 
 You can view my resume by visiting the following link:
 
-[Personal Resume] https://your-resume-link.com]([https://umutoniwasepie.github.io/My_Personal_Resume/](https://umutoniwasepie.github.io/My_Personal_Resume/)
+[Personal Resume] https://your-resume-link.com](https://umutoniwasepie.github.io/My_Personal_Resume/)
 
 ## Usage
 
