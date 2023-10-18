@@ -6,7 +6,7 @@
 
 /* Improved Header Styles */
 .hero {
-    background: url("images/background.png") center/cover no-repeat; /* Use a background image */
+    background: url("images/background") center/cover no-repeat; /* Use a background image */
     color: #fff; /* Text color for better contrast */
     text-align: center;
     padding: 100px 0;
