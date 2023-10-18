@@ -1,0 +1,422 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Improved Header Styles */
+.hero {
+    background: url("images/background.png") center/cover no-repeat; /* Use a background image */
+    color: #fff; /* Text color for better contrast */
+    text-align: center;
+    padding: 100px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel {
+    margin-top: 5%;
+}
+
+.detel h1 {
+    font-size: 36px; /* Slightly reduced font size for better mobile view */
+}
+
+span {
+    color: #EF476F;
+}
+
+.detel p {
+    color: #ccc; /* Adjusted text color */
+    line-height: 24px; /* Improved readability */
+}
+
+.detel a {
+    background: #8f2020; /* Use a more noticeable color */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+/* Improved Images Styles */
+.images {
+    text-align: center; /* Center the images for better alignment */
+    margin-top: 20px;
+}
+
+.images img {
+    max-width: 100%; /* Ensure the image does not overflow its container */
+    height: auto; /* Maintain the image aspect ratio */
+}
+
+.images .girl {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Adjusted the maximum width */
+    transition: transform 1s;
+}
+
+.images:hover .girl {
+    transform: scale(1.3); /* Slight scale effect on hover */
+}
+
+/* Improved Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* About Me Section Styles */
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    background: #333; /* Light gray background */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the content into two rows */
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    flex: 2;
+    margin-right: 0px;
+    background: #333; /*  gray background */
+    padding: 20px; /* Add some padding for separation */
+    color: #ccc; /* White text color for contrast */
+}
+
+.about-content p {
+    color: #fff; /* color for better readability */
+    font-size: 30px;
+}
+
+.images {
+    flex: 1;
+    padding: 20px; /* Add padding for separation */
+   
+}
+
+section {
+    margin-bottom: 40px; /* Increased spacing between sections */
+    padding: 20px;
+    background: #333; /* slightly lighter gray background for better readability */
+}
+
+section h1 {
+    margin-bottom: 20px;
+    text-align: center; /* Center section headings */
+    color: #ccc; /* White text color for contrast */
+    background: #222; /* Dark gray heading background */
+    padding: 10px; /* Add padding for style */
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+/* Education Section Styles */
+#education {
+    text-align: center;
+    background: #fff; /*  white background */
+}
+
+#education h1 {
+    background: #8f2020; /* Dark red heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education {
+    background: #fff; /* Dark gray background */
+    flex: 1; /* Use flexbox to create a two-row layout */
+    padding: 20px; /* Add some padding for separation */
+    color: #333; /* White text color for contrast */
+    text-align: center; /* Center text */
+}
+
+.education h2 {
+    color: #333; /* Color for education subtitles */
+}
+
+.education p {
+    color: #333; /* Color for education paragraphs */
+}
+
+/* Skills Section Styles */
+#skills {
+    text-align: center;
+}
+
+#skills h1 {
+    background: #8f2020; /* Dark red heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.skill, .centered-skill {
+    flex: 1;
+    padding: 20px; /* Add some padding for separation */
+    color: #fff; /* White text color for contrast */
+    text-align: center; /* Center text */
+    transition: transform 0.5s; /* Add a smooth transition effect */
+}
+
+.skill:hover, .centered-skill:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+.skill p1, .centered-skill p1 {
+    color: #fff; /* Color for better readability */
+}
+
+.skill img, .centered-skill img {
+    max-width: 200px; /* Ensure the image does not overflow its container */
+    height: auto; /* Maintain the image aspect ratio */
+    display: block; /* Remove the default inline behavior */
+    margin: 0 auto; /* Center the image horizontally */
+    border: none; /* Remove borders on images */
+}
+
+/* Centered skill columns in the second row */
+.centered-skill {
+    margin: 0 auto; /* Center the column */
+}
+
+.row > * {
+    margin: 0 10px; /* Adjust the margin for equal spacing */
+}
+
+/* Experience Section Styles */
+#experience {
+    text-align: center;
+    background: #fff; /* white background */
+}
+
+#experience h1 {
+    background: #8f2020; /* Dark gray heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.experience {
+    background: #333; /* Dark blue background */
+    flex: 1; /* Use flexbox to create a two-column layout */
+    padding: 20px; /* Add some padding for separation */
+    color: #fff; /* White text color for contrast */
+    text-align: center; /* Center text */
+}
+
+.experience h2 {
+    color: #8f2020; /* Color for experience subtitles */
+    font-size: 30px;
+}
+
+.experience p {
+    color: #fff; /* Color for experience paragraphs */
+}
+
+/* Projects Section Styles */
+#projects {
+    text-align: center;
+    background-color: #333;
+}
+
+#projects h1 {
+    background: #8f2020; /* Dark gray heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    flex: 1;
+    margin: 20px;
+    position: relative;
+}
+
+.project p{
+    color: #fff; /* color for better readability */
+    font-weight: bold;
+}
+
+.project p1{
+    color:#EF476F;
+    font-weight: bold;
+}
+
+.project img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s; /* Add a smooth transition effect */
+}
+
+.project:hover img {
+    transform: scale(1.3); /* Increase the image size on hover */
+}
+
+/* Style the Contact Me form */
+#contact {
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact h1 {
+    background: #8f2020; /* Dark gray heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+#contact-me {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form div {
+    margin: 10px 0;
+}
+
+#contact-form label {
+    display: block;
+    text-align: left;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #8f2020;
+    color: white;
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#success-message {
+    color: green;
+    margin: 10px 0;
+}
+
+#my_contact {
+    text-align: center;
+    background-color: #333;
+}
+
+#my_contact h1 {
+    background: #8f2020; /* Dark gray heading background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px;
+    margin: 0 auto 20px; /* Center the heading and add margin */
+    width: fit-content; /* Fit the heading width to its content */
+    border-radius: 5px;
+}
+
+/* Improved Footer Styles */
+footer {
+    background-color: ; /* Dark background color for the footer */
+    color: black; /* White text color for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Navigation Styles */
+/* Add responsive styles as needed, e.g., for mobile navigation */
+
+/* Default styles for all screen sizes */
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* Adjust styles for mobile screens */
+    nav {
+        display: none;
+        /* You can use a "hamburger" icon for the mobile menu */
+    }
+
+    /* Add mobile-specific styles here */
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust styles for tablets here */
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+    /* Adjust styles for desktop screens here */
+}
+

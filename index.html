@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm Pierrette <span>Umutoniwase</span></h1>
+            <p>This is my personal Resume</p>
+            <a href="#">DOWNLOAD CV</a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="about-content">
+                    <p>
+                        Motivated student with a track record of success in file management, and cybersecurity. Committed to excellence, adept at exceeding
+                        targets, and currently advancing expertise in software and energy engineering. Ready to apply this diverse skill set to drive success in
+                        future endeavors.
+                    </p>
+                </div>
+                <div class="images">
+                    <img src="images/girl.jpg" class="girl">
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h1>Education</h1>
+            <div class="row">
+                <div class="education">
+                    <h2>African Leadership University</h2>
+                    <p>BA. Software Engineering</p>
+                    <p>Relevant Coursework: Foundations of computer science and engineering-Programming; Front-End Web Development; Web Infrastructure; Enterprise Web Development</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="education">
+                    <h2>Lycee Notre Dame de Citeaux</h2>
+                    <p>High School Diploma</p>
+                    <p>Relevant Coursework: Physics, Chemistry and Mathematics</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1>Skills</h1>
+            <div class="row">
+                <div class="skill">
+                    <img src="images/html.png" alt="HTML">
+                    <p1>HTML</p1>
+                </div>
+                <div class="skill">
+                    <img src="images/css.png" alt="CSS">
+                    <p1>CSS</p1>
+                </div>
+                <div class="skill">
+                    <img src="images/js.png" alt="JavaScript">
+                    <p1>JavaScript</p1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="centered-skill">
+                    <img src="images/react.png" alt="React">
+                    <p1>React</p1>
+                </div>
+                <div class="centered-skill">
+                    <img src="images/node.jpg" alt="Node.js">
+                    <p1>Node.js</p1>
+                </div>
+            </div>
+        </section>        
+        <section id="experience">
+            <h1>Experience</h1>
+            <div class="row">
+                <div class="experience">
+                    <h2>Cybersecurity Training _ Brainnest</h2>
+                    <p>● Established a personal hacking lab to gain practical experience with real-world applications.
+                        <br>● Gained an understanding of the foundations of cybersecurity and relevant terminology, including zero-day exploits.
+                        <br>● Acquired insight into the tactics and techniques of hackers and learned how to ethically hack networks.
+                        <br>● Recognized the importance of secure online practices and how to safeguard personal and sensitive information from cyber threats</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="experience">
+                    <h2>File Clerk _ RALC</h2>
+                    <p>● Consistently met short and long-term targets.
+                        <br>● Validated data to ensure correct entry and accuracy, spotting errors, and correcting mistakes as necessary.
+                        <br>● Restored historic taxidermy dating back many years by conditioning pelts, reattaching detached elements, and creating new
+                        mountings.
+                        <br>● Updated company databases.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="row">
+                <div class="project">
+                    <img src="images/project1.jpeg" alt="Project 1">
+                    <br> <br>
+                    <p1>Project 1</p1>
+                    <br> <br>
+                    <p>In this project I developed a Multilingual Translation App which is a web-based application that allows users to translate text between various languages using the Microsoft Translator Text API. The app provides a user-friendly interface where users can input text, select source and target languages, and receive instant translations. This project demonstrates the use of external APIs for real-time translation and user interaction.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <br> <br>
+                    <p1>Project 2</p1>
+                    <br> <br>
+                    <p>This was the first step in building an Airbnb clone web application. In this step, we created a command interpreter to manage Airbnb objects. This command interpreter was used as the foundation for the entire project, including HTML/CSS templating, database storage, API, and front-end integration.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <!-- Add the contact form -->
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+            <!-- Add a div for displaying the sent message -->
+            <div id="sent-message" style="display: none;">Message sent successfully!</div>
+        </section>
+        <section id="my_contact">
+            <h1>My information</h1>
+            <p>Email: p.umutoniwa@alustudent.com</p>
+            <p>Github ID: Umutoniwasepie</p>
+            <p>LinkedIn ID: Pierrette Umutoniwase</p>
+            <p>Phone: +250788581292</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Personal Resume. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
