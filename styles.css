@@ -212,7 +212,7 @@ section ul {
 }
 
 .skill p1, .centered-skill p1 {
-    color: #fff; /* Color for better readability */
+    color: #333; /* Color for better readability */
 }
 
 .skill img, .centered-skill img {
