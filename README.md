@@ -23,19 +23,6 @@ You can view my resume by visiting the following link:
 
 Simply open the provided link in your web browser to access my resume. Navigate through the different sections to learn more about me, my skills, experience, and projects.
 
-## Contributing
-
-If you would like to contribute to the development of this project or report issues, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes.
-4. Submit a pull request.
-
-## License
-
-This project is licensed under the [Your License] License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 If you have any questions or would like to get in touch, you can reach me at [p.umutoniwa@alustudent.com].
