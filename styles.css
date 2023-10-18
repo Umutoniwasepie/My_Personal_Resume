@@ -181,6 +181,7 @@ section ul {
 /* Skills Section Styles */
 #skills {
     text-align: center;
+    background: #fff; /*  white background */
 }
 
 #skills h1 {
@@ -419,4 +420,3 @@ footer {
 @media screen and (min-width: 1024px) {
     /* Adjust styles for desktop screens here */
 }
-
